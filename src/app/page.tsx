@@ -1,6 +1,6 @@
 // pages/index.js or pages/index.tsx
 
-import Head from 'next/head';
+import Image from "next/image"
 
 const Home = () => {
   return (
@@ -14,7 +14,15 @@ const Home = () => {
           <p className="mt-3 text-2xl">
             Start learning  in a fun and interactive way.
           </p>
-          {/* More content and components specific to the Home page */}
+          <Image
+            alt="Hand Signs for american sign language"
+            src="../../public/Handsign.svg"
+            width = "500"
+            height="500">
+
+          </Image>
+          
+
         </main>
       </div>
     </>
